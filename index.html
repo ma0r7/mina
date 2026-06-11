@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Логотип «E» — варианты</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #16181d;
+    color: #e8eaed;
+    padding: 48px 24px;
+  }
+  h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; text-align: center; }
+  p.sub { text-align: center; color: #9aa0a6; margin-bottom: 48px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #1f2329;
+    border: 1px solid #2c313a;
+    border-radius: 18px;
+    padding: 28px;
+    text-align: center;
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .card:hover { transform: translateY(-4px); border-color: #2b6cff; }
+  .stage {
+    display: flex; align-items: center; justify-content: center;
+    gap: 24px; flex-wrap: wrap; margin-bottom: 18px;
+  }
+  .stage .dark, .stage .light {
+    border-radius: 14px; padding: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .stage .dark  { background: #0c0e12; }
+  .stage .light { background: #f4f5f7; }
+  .stage img { width: 150px; height: 150px; display: block; }
+  .light img { filter: none; }
+  h2 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .desc { color: #9aa0a6; font-size: 14px; }
+</style>
+</head>
+<body>
+  <h1>Логотип буквы «E»</h1>
+  <p class="sub">Три уникальных варианта в векторном формате — масштабируются без потери качества</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="stage">
+        <div class="dark"><img src="logo-e.svg" alt="E dynamic"></div>
+        <div class="light"><img src="logo-e.svg" alt="E dynamic light"></div>
+      </div>
+      <h2>1. Dynamic</h2>
+      <p class="desc">Угловатый корпус, отлетающие пиксели и неоновый росчерк — в духе вашего оригинала.</p>
+    </div>
+
+    <div class="card">
+      <div class="stage">
+        <div class="dark"><img src="logo-e-minimal.svg" alt="E minimal"></div>
+        <div class="light"><img src="logo-e-minimal.svg" alt="E minimal light"></div>
+      </div>
+      <h2>2. Minimal</h2>
+      <p class="desc">Чистые срезанные полосы и единственный акцентный блок. Строго и современно.</p>
+    </div>
+
+    <div class="card">
+      <div class="stage">
+        <div class="dark"><img src="logo-e-monogram.svg" alt="E monogram"></div>
+        <div class="light"><img src="logo-e-monogram.svg" alt="E monogram light"></div>
+      </div>
+      <h2>3. Monogram</h2>
+      <p class="desc">Буква в шестиугольном кольце с градиентной гранью. Премиальный «бейдж».</p>
+    </div>
+  </div>
+</body>
+</html>

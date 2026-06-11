@@ -1,0 +1,20 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="m-grad" x1="100" y1="80" x2="300" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2a2e35"/>
+      <stop offset="100%" stop-color="#0b0d11"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Три полосы буквы E со срезанными углами -->
+  <g fill="url(#m-grad)">
+    <path d="M110 80 L300 80 L300 128 L158 128 L110 128 Z"/>
+    <path d="M110 176 L270 176 L270 224 L110 224 Z"/>
+    <path d="M110 272 L300 272 L300 320 L158 320 L110 320 Z"/>
+  </g>
+  <!-- Вертикальная стойка -->
+  <path d="M110 80 L158 80 L158 320 L110 320 Z" fill="url(#m-grad)"/>
+
+  <!-- Акцентная точка отрыва -->
+  <rect x="285" y="186" width="28" height="28" rx="4" fill="#2b6cff"/>
+</svg>
